@@ -1,1 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+
+:root {
+  --text-color: #1A1A1A;
+  --background-header : #111;
+  --text-main : #fff;
+  --second-color : #f96400;
+  --color-border : #020001;
+  --orange-color : #fa7b26;
+  --gray-color : #666666;
+  --blue-color : #0565bb;
+  --yellow-color : #fcd32a;
+  --yellow-bc : #fcd426;
+}
+
+:root {
+  --text-small : 14px;
+  --text-mid : 16px;
+  --text-title : 20px;
+  --text-large : 50px;
+  --main-line-height : 25px;
+}
+
+:root {
+  --font-light : 300;
+  --font-regular : 400;
+  --font--medium : 500;
+  --font-bold : 700;
+  --font-extra : 800;
+
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size:var(--text-small);
+  color: var(--text-color);
+  line-height: var(--main-line-height);
+  font-weight: var(--font-regular);
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

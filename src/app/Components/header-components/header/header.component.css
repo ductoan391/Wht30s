@@ -1,0 +1,182 @@
+.header {
+  display: flex;
+  background-color: var(--background-header);
+  padding: 27px 120px 27px 97px;
+  color: var(--text-main);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamrburger {
+  display: none;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.menu-ul {
+  position: relative;
+  display: flex;
+  line-height: 30px;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.item:hover {
+  color: #fccb05;
+}
+
+.item:not(:last-child) {
+  margin-right: 76px;
+}
+
+.item:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 60%;
+  width: 2px;
+  height: 23px;
+  background-color: #ccc8c6;
+}
+
+.second {
+  margin-top: -8px;
+  position: relative;
+}
+
+.second__box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: 10%;
+}
+
+.box-title {
+  font-size: var(--text-large);
+  line-height: 60px;
+  letter-spacing: 5px;
+  font-weight: var(--font-extra);
+  color: var(--text-main);
+}
+
+.box-des {
+  font-size: var(--text-title);
+  line-height: 35px;
+  color: var(--text-main);
+  margin-top: 59px;
+}
+
+
+
+@media (min-width: 1024) and (max-width: 1400px) {
+
+
+}
+
+/* Tablet */
+@media (min-width: 737px) and (max-width: 1024px) {
+  .second__box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin-left: 5%;
+  }
+
+  .box-title {
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 5px;
+    font-weight: var(--font-extra);
+    color: var(--text-main);
+  }
+
+  .box-des {
+    font-size: 14px;
+    line-height: 23px;
+    color: var(--text-main);
+    margin-top: 20px;
+  }
+
+}
+
+/* Mobile */
+@media (min-width: 374px) and (max-width: 736px) {
+  .second__box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin-left: 5%;
+  }
+
+  .box-title {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    font-weight: var(--font-extra);
+    color: var(--text-main);
+  }
+
+  .box-des {
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--text-main);
+    margin-top: 8px;
+  }
+
+
+}
+
+/* Mobile and Tablet */
+@media (min-width: 374px) and (max-width: 1024px) {
+
+.banner {
+  padding-top: 80px;
+}
+  .header {
+    display: flex;
+    background-color: var(--background-header);
+    justify-content: space-between;
+    color: var(--text-main);
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .hamrburger {
+    display: block;
+    font-size: 20px;
+  }
+
+  .logo {
+    margin-top: 10px;
+  }
+
+  .logo img {
+    width: 30;
+    height: 15;
+  }
+
+  .menu {
+
+  }
+
+  .menu-ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+
+  }
+}
+
+

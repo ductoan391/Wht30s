@@ -1,0 +1,135 @@
+.footer {
+  background-image: url('../../../../assets/img/banner-footer.png');
+  height: 1626px;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.box-title {
+  font-size: 45px;
+  font-weight: var(--font-bold);
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.box-des {
+  line-height: 32px;
+  font-size: var(--text-mid);
+  font-size: var(--text-mid);
+}
+
+.des1 {
+  display: block;
+  text-indent: 10px;
+}
+
+.btn-brand {
+  margin-top: 40px;
+  width: 200px;
+  height: 60px;
+  border: solid 3px var(--color-border);
+  border-radius: 3px;
+  font-size: 23px;
+  line-height: 25px;
+  font-weight: var(--font-extra);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-brand:hover {
+  background-color: var(--yellow-color);
+}
+
+.footer-mobile {
+  display: none;
+}
+
+
+/* Responsive small pc */
+@media (min-width: 1024) and (max-width: 1400px) {
+
+}
+
+/* Tablet */
+@media (min-width: 737px) and (max-width: 1024px) {
+
+}
+
+/* Mobile */
+@media (min-width: 374px) and (max-width: 736px) {
+
+}
+
+/* Mobile and Tablet */
+@media (min-width: 374px) and (max-width: 1024px) {
+  .footer-mobile {
+    display: block;
+    position: unset;
+    height: 600px;
+  }
+
+  .mobile-img img {
+    max-height: 320px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .box {
+    position: unset;
+    margin-bottom: 15px;
+  }
+
+  .box-title {
+    font-size: var(--text-mid);
+    font-weight: var(--font-bold);
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+  }
+
+  .box-des {
+    line-height: 25px;
+    font-size: var(--text-small);
+    text-align: center;
+
+  }
+
+  .box-des span {
+    display: block;
+  }
+
+  .des1 {
+    display: block;
+    text-indent: 3px;
+  }
+
+  .btn-brand {
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    border: solid 2px var(--orange-color);
+    border-radius: 2px;
+    font-size: var(--text-small);
+    line-height: 20px;
+    font-weight: var(--font-extra);
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: var(--orange-color);
+  }
+
+  .footer {
+    display: none;
+  }
+
+}

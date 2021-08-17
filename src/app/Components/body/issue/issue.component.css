@@ -1,0 +1,253 @@
+.issue {
+  position: relative;
+  background-color: var(--yellow-bc);
+  /* padding: 0 0 100px 0; */
+  height: 1090px;
+}
+
+.box {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.box-title {
+  font-size: 45px;
+  font-weight: var(--font-bold);
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.box-des {
+  line-height: 30px;
+  font-size: var(--text-mid);
+}
+
+.des1 {
+  display: block;
+  text-indent: 10px;
+}
+
+.btn-brand {
+  margin-top: 40px;
+  width: 200px;
+  height: 60px;
+  border: solid 3px var(--color-border);
+  border-radius: 3px;
+  font-size: 23px;
+  line-height: 25px;
+  font-weight: var(--font-extra);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-brand:hover {
+  background-color: var(--blue-color);
+  color: var(--yellow-color);
+}
+
+.layout {
+  position: absolute;
+  display: grid;
+  top: 43%;
+  left: 0;
+  right: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75px 406px;
+  border-top: 3px solid var(--color-border);
+  border-bottom: 3px solid var(--color-border);
+}
+
+.item1 {
+  position: relative;
+  width: 387px;
+  height: 480px;
+  background-color: #ff5400;
+}
+
+.layout-item_img {
+  margin-left: 50%;
+  transform: translateX(-38%);
+}
+
+.item-img {
+  width: 383px;
+  height: 408px;
+}
+
+.layout-brand {
+  height: 75px;
+  background-color: #090600;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--font-extra);
+  font-size: 30px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.layout-brand:hover {
+  color: var(--yellow-color);
+}
+
+.img-2 {
+  margin-top: -2px;
+}
+
+.img-1 {
+  height: 410px;
+  z-index: -1;
+}
+
+.layout-box {
+  text-align: center;
+  font-size: 55px;
+  font-weight: var(--font-extra);
+  line-height: 57px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.coin {
+  position: absolute;
+  top: 80%;
+  right: -6%;
+}
+
+.span1 {
+  display: block;
+}
+
+.lol {
+  position: absolute;
+  top: 93%;
+  right: 18%;
+}
+
+.object3 img {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  top: 43px;
+  right: 70px;
+}
+
+.object2 img {
+  width: 119px;
+  height: 111px;
+  position: absolute;
+  top: 163px;
+  right: 68px;
+}
+
+@media (min-width: 1024) and (max-width: 1400px) {
+}
+
+/* Tablet */
+@media (min-width: 737px) and (max-width: 1024px) {
+  .wrap {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+}
+
+/* Mobile */
+@media (min-width: 374px) and (max-width: 736px) {
+  .wrap {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+}
+/* Mobile and Tablet */
+@media (min-width: 374px) and (max-width: 1024px) {
+  .issue {
+    position: relative;
+    background-color: var(--yellow-bc);
+    height: 200px;
+  }
+
+  .box {
+    position: unset;
+    margin-bottom: 15px;
+    margin-left: 0;
+    transform: translateX(0);
+  }
+
+
+  .box-title {
+    font-size: var(--text-mid);
+    font-weight: var(--font-bold);
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding-top: 15px;
+    text-transform: uppercase;
+  }
+
+  .box-des {
+    line-height: 25px;
+    font-size: 12px;
+    text-align: left;
+    width: 270px;
+  }
+
+
+  .box-des p {
+    max-width: 100%;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+
+  .box-des span {
+    display: block;
+  }
+
+  .des1 {
+    display: block;
+    text-indent: unset;
+    margin-bottom: 15px;
+  }
+
+  .btn-brand {
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    border: solid 2px var(--color-border);
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: var(--color-border);
+  }
+
+  .object3 img,
+  .object2 img,
+  .item1,
+  .lol,
+  .coin,
+  .layout {
+    display: none;
+  }
+}
+
+
