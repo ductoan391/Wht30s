@@ -1,20 +1,21 @@
-
 .main-div mat-card {
   padding: 0px;
 }
 
-.main-div {
-
-  background: #22c1c3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+mat-card {
+  width: 500px;
+  height: 520px;
 }
+
+.main-div {
+  background: #22c1c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fdbb2d, #22c1c3);
+  background: linear-gradient(to left, #fdbb2d, #22c1c3);
+}
+
 .login-form {
   padding: 40px;
 }
-
 
 button {
   margin-bottom: 40px;
@@ -23,24 +24,29 @@ button {
 
 .warn {
   background-color: #33b5e6;
- justify-content: center;
- font-size: 22px;
- font-weight: bold;
-color: #fff;
- font-family: "Roboto",sans-serif;
- letter-spacing: 2px;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
 }
 
 .register {
-margin-left: calc(50% - 40px);
-transform: translateX(calc(-50% + 40px));
+  margin-left: calc(50%);
+  transform: translateX(calc(-50% + 20px));
 }
 
 .forgot {
   margin-top: 12px;
-  margin-left: 50%;
-  transform: translateX(-50%);
 }
+
+.forgot-span {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(calc(-50% + 40px));
+}
+
 .register-link {
   text-decoration: underline;
 }
@@ -100,4 +106,62 @@ transform: translateX(calc(-50% + 40px));
   background-color: #ef4c4d;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .login-form {
+    padding: 25px;
+  }
 
+}
+
+@media (min-width: 374px) and (max-width: 767px) {
+  .login-form {
+    padding: 15px;
+  }
+
+  button {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .warn {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .register {
+    font-size: 12px;
+    margin-left: 50%;
+    transform: translateX(calc(-50% + 30px));
+  }
+
+  .hidden {
+    display: none;
+  }
+
+
+  .forgot {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+
+  .forgot-span {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(calc(-50%));
+  }
+
+  .social-title {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .social-box i {
+    font-size: 20px;
+  }
+
+  mat-card {
+    width: 500px;
+    height: 420px;
+  }
+}
