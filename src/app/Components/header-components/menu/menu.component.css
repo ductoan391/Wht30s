@@ -12,6 +12,10 @@ nav {
   position: relative;
 }
 
+li:hover a{
+  color: var(--yellow-color);
+}
+
 .li3::before {
   position: absolute;
   top: 30px;

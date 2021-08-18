@@ -10,6 +10,11 @@
   display: none;
 }
 
+.footer:hover {
+  cursor: pointer;
+  background-color: var(--second-color);
+}
+
 .box {
   padding-top: 140px;
   padding-bottom: 70px;

@@ -2,6 +2,22 @@
   padding: 142px 175px 0 175px;
 }
 
+img {
+  cursor: pointer;
+  width: 100%;
+  object-fit: cover;
+  transition: 250ms ease-in-out;
+}
+
+img:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col {
+  cursor: pointer;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
