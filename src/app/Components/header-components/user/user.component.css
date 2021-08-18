@@ -1,0 +1,103 @@
+
+.main-div mat-card {
+  padding: 0px;
+}
+
+.main-div {
+
+  background: #22c1c3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.login-form {
+  padding: 40px;
+}
+
+
+button {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.warn {
+  background-color: #33b5e6;
+ justify-content: center;
+ font-size: 22px;
+ font-weight: bold;
+color: #fff;
+ font-family: "Roboto",sans-serif;
+ letter-spacing: 2px;
+}
+
+.register {
+margin-left: calc(50% - 40px);
+transform: translateX(calc(-50% + 40px));
+}
+
+.forgot {
+  margin-top: 12px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.register-link {
+  text-decoration: underline;
+}
+
+.social {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.social-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-box i {
+  display: block;
+  font-size: 25px;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.fab:hover {
+  transform: translateY(-8%);
+}
+
+.fa-facebook {
+  color: #6c84b3;
+}
+
+.fa-twitter {
+  color: #81c2f3;
+}
+
+.fa-google-plus-g {
+  color: #d36c63;
+}
+
+.social-box i:not(:last-child) {
+  margin-right: 15px;
+}
+
+.social-title {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.register-link,
+.forgot-span {
+  color: #0470ee;
+}
+
+.btn-login {
+  background-color: #ef4c4d;
+}
+
+

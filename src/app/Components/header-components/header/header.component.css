@@ -33,7 +33,7 @@
   margin-right: 76px;
 }
 
-.item:nth-child(3)::after {
+/* .item:nth-child(3)::after {
   content: "";
   position: absolute;
   top: 0;
@@ -41,7 +41,8 @@
   width: 2px;
   height: 23px;
   background-color: #ccc8c6;
-}
+
+} */
 
 .second {
   margin-top: -8px;
