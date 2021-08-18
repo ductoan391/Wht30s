@@ -1,7 +1,10 @@
 .brand {
   position: relative;
   background-color: var(--blue-color);
+}
 
+.hideen {
+  display: none;
 }
 
 .window {
