@@ -6,6 +6,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   z-index: 9999;
+  padding: 0 90px 0 95px;
 }
 
 
@@ -24,12 +25,8 @@ li:hover a{
   z-index: 9999;
 }
 
-label.logo {
-  font-size: 26px;
-  font-weight: var(--font-extra);
-  color: #fff;
-  padding: 0 100px;
-  line-height: 26px;
+.logo {
+  cursor: pointer;
 }
 
 nav ul {

@@ -146,7 +146,73 @@
   right: 68px;
 }
 
-@media (min-width: 1024) and (max-width: 1400px) {
+@media (min-width: 1024px) and (max-width: 1700px) {
+  .issue {
+
+    height: 1000px;
+  }
+
+  .box {
+    top: 80px;
+    margin-bottom: 35px;
+  }
+
+  .box-title {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: var(--font-bold);
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .box-des {
+    line-height: 20px;
+    font-size: var(--text-mid);
+  }
+
+  .des1 {
+    display: block;
+    text-indent: 10px;
+  }
+
+  .btn-brand {
+    margin-top: 20px;
+    width: 160px;
+    height: 40px;
+    border: solid 3px var(--color-border);
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: var(--font-extra);
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .layout-item img {
+
+  }
+
+  img {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+  }
+
+  .layout {
+    position: absolute;
+    display: grid;
+    top: 35%;
+    left: 0;
+    right: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px 280px;
+    border-top: 3px solid var(--color-border);
+    border-bottom: 3px solid var(--color-border);
+  }
+
+
+
+
 }
 
 /* Tablet */

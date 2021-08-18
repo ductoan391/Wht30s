@@ -55,8 +55,62 @@
 
 
 /* Responsive small pc */
-@media (min-width: 1024) and (max-width: 1400px) {
+@media (min-width: 1024px) and (max-width: 1700px) {
+  .footer {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1400px;
+  }
 
+  .box {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .box-title {
+    font-size: 35px;
+    font-weight: var(--font-bold);
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .box-des {
+    line-height: 22px;
+    font-size: var(--text-mid);
+    font-size: var(--text-mid);
+  }
+
+  .des1 {
+    display: block;
+    text-indent: 10px;
+  }
+
+  .btn-brand {
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    border: solid 3px var(--color-border);
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: var(--font-extra);
+    background-color: transparent;
+    cursor: pointer;
+
+  }
+
+  .btn-brand:hover {
+    background-color: var(--yellow-color);
+  }
+
+  .footer-mobile {
+    display: none;
+  }
 }
 
 /* Tablet */
